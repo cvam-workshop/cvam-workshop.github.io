@@ -26,10 +26,12 @@ title: Organizers
           <div
             class="column column-block">
             <div class="profile">
+              {% if organizer.photo_url != blank %}
               <img
                 class="thumbnail"
                 src="{{ organizer.photo_url }}"
                 alt="Photo of {{ organizer.name }}" />
+                {% endif %}
               <div class="profile-namecard">
                 <h3 class="profile-name">
                   {{ organizer.name }}

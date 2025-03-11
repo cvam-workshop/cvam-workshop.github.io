@@ -1,6 +1,6 @@
 
 # Replace DOMAIN with your Netlify link if our templates are not deployed yet.
-DOMAIN = https://djangocon.us
+DOMAIN = https://github.com/cvam-workshop/cvam-workshop.github.io
 # DOMAIN = https://deploy-preview-45--djangoconus2021.netlify.app/  # <-- it was this last time!
 IMAGE_SIZE = 1024x512
 # IMAGE_SIZE = 1400x700

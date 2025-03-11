@@ -1,13 +1,13 @@
 title: DjangoCon US
-url: "https://2021.djangocon.us"
-author : DjangoCon US
+url: "https://cvam-workshop.github.io/"
+author : Mac Szankin
 description: |
-  DjangoCon US 2021 will take place online from October 21-23, 2021!
-enforce_ssl: "2021.djangocon.us"
+  Computer Vision in Advertising and Marketing
+enforce_ssl: "cvam-workshop.github.io"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
-timezone: America/Chicago
-conf_year: 2021
+timezone: Pacific/Honolulu
+conf_year: 2025
 
 include:
   - _pages
@@ -107,21 +107,21 @@ defaults:
 schedule_show_video_urls: true
 
 ## All the email addresses
-conduct_email: "conduct@djangocon.us"
-contact_us_email: "hello@djangocon.us"
-opportunity_grants_email: "grants@djangocon.us"
-program_team_email: "program@djangocon.us"
-sponsors_email: "sponsors@djangocon.us"
-visa_email: "visas@djangocon.us"
+conduct_email: ""
+contact_us_email: ""
+opportunity_grants_email: "s"
+program_team_email: ""
+sponsors_email: ""
+visa_email: ""
 
 ## Our DjangoCon US links
-cfp_application: "https://www.papercall.io/djangocon-us-2021"
+cfp_application: ""
 hotel_reservation_link: ""
-mailing_list: "http://eepurl.com/bpvu2f"
+mailing_list: ""
 opportunity_grant_application: ""
 slack_link: ""
 sponsorship_prospectus: ""
-ticket_link: "https://ti.to/defna/djangocon-us-2021"
+ticket_link: ""
 # youtube_link: ""
 
 github: [metadata]

@@ -1,0 +1,4 @@
+{
+    "image":"ghcr.io/devcontainers/templates/jekyll:2.2.2",
+    "postCreateCommand": "sudo apt update && sudo apt install nodejs npm && gem install jekyll bundler && bundle install && npm install --force . && bundle exec jekyll serve"
+}

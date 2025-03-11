@@ -1,8 +1,8 @@
-title: DjangoCon US
+title: CVAM | ICCV 2025 Workshop on Computer Vision in Advertising and Marketing
 url: "https://cvam-workshop.github.io/"
 author : Mac Szankin
 description: |
-  Computer Vision in Advertising and Marketing
+  The workshop will explore cutting-edge computer vision applications in digital advertising and marketing, covering fundamental visual understanding tasks, marketing optimization systems, brand intelligence, responsible AI practices, creative generation techniques, and emerging technologies that are transforming how brands connect with audiences through visual content.
 enforce_ssl: "cvam-workshop.github.io"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date

@@ -7,5 +7,5 @@ role: Organizer
 org: Amazon AWS
 title: AI Lead, North America, Advertisement and Marketing,
 twitter: kwasniewskaala
-website: 
+website: https://www.linkedin.com/in/alicjakwasniewska/
 ---

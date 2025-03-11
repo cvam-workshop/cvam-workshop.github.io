@@ -7,5 +7,5 @@ role: Organizer
 org: PrimeAudience
 title: Vice President of Product
 twitter: 
-website: 
+website: https://www.linkedin.com/in/ruminskimat/
 ---

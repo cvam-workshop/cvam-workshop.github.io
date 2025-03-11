@@ -7,5 +7,5 @@ role: Organizer
 org: Intel Labs
 title: AI Research Scientist
 twitter: subarnaT
-website: 
+website: https://www.linkedin.com/in/subarnatripathi/
 ---

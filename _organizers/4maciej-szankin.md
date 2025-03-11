@@ -7,5 +7,5 @@ role: Organizer
 org: SiMa.ai
 title: Principal Solutions Architect, GenAI
 twitter: MacSzankin
-website: 
+website: https://www.linkedin.com/in/maciejszankin/
 ---

@@ -1,5 +1,5 @@
 ---
-description: DjangoCon US 2021 Talks / General Sessions Schedule
+description: CVAM 2025 Talks
 heading: Talks Schedule
 layout: default
 permalink: /talks/
@@ -11,11 +11,11 @@ title: Talks Schedule
 <!-- talks: day 1 -->
 <section class="section-pad schedule">
   <div class="row column">
-    <h2 class="day">Talks: Friday, October 22</h2>
+    <h2 class="day">Date TBD, Morning Session</h2>
     <ul class="schedule">
       {% for post in site.schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-        {% if day == 'Friday' %}
+        {% if day == 'Sunday' %}
           {% include schedule-talks-day.html %}
         {% endif %}
       {% endfor %}
@@ -25,9 +25,10 @@ title: Talks Schedule
 <!-- talks: day 1 -->
 
 <!-- talks: day 2 -->
+{% comment %}
 <section class="section-pad schedule">
   <div class="row column">
-    <h2 class="day">Talks: Saturday, October 23</h2>
+    <h2 class="day">Date TBD</h2>
     <ul class="schedule">
       {% for post in site.schedule %}
         {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
@@ -38,4 +39,5 @@ title: Talks Schedule
     </ul>
   </div>
 </section>
+{% endcomment %}
 <!-- talks: day 2 -->

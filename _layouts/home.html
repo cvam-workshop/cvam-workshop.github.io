@@ -5,21 +5,22 @@ layout: base
 <header class="header">
   <div class="row">
     <div class="header-text">
-      <h1>Join us for two days of talks</h1>
+      <h1>Computer Vision in Advertising and Marketing</h1>
+      <h2>CVAM @ ICCV 2025</h2>
 
       <div class="event-info-detail">
         <strong
-          class="event-info-date">October 22-23, 2021</strong>
+          class="event-info-date" style="color:#ff0fb8">October 19-25, 2025</strong>
 
         <span
           class="subheading event-info-location">
-          <strong>Online</strong>
+          <strong style="color:#f67fd3">Honolulu, Hawaii</strong>
         </span>
       </div>
 
-        <a
+        <!-- <a
           class="button"
-          href="{{ site.mailing_list }}">Join Mailing List</a>
+          href="{{ site.mailing_list }}">Join Mailing List</a> -->
 
       {% comment %}
         <a class="button" href="/schedule/">Conference Schedule</a>
@@ -34,7 +35,9 @@ layout: base
 
 <section class="section-pad curve1 theme-brand-color3">
   <div class="row column xlarge-9">
-    <p class="lead column large-9 large-centered text-center">Join us for a source of inspiration, education and networking opportunities. Our team is making sure that participating in DjangoCon US is easy for you!</p>
+    <p class="lead column large-9 large-centered text-center">
+      The workshop will explore cutting-edge computer vision applications in digital advertising and marketing, covering fundamental visual understanding tasks, marketing optimization systems, brand intelligence, responsible AI practices, creative generation techniques, and emerging technologies that are transforming how brands connect with audiences through visual content.
+    </p>
 
     {% comment %}
     <div class="date-card medium-4 column">
@@ -55,7 +58,7 @@ layout: base
       <a href="/talks/">
         <div class="dates">
           <div class="month">October</div>
-          <div class="days">22-23</div>
+          <div class="days">19-25</div>
         </div>
         <div class="details">
           <h2 class="date-card-title">Talks</h2>
@@ -77,47 +80,77 @@ layout: base
 
 <section class="section-pad">
   <div class="row column v-pad-bottom text-center">
-    <h2>A conference with heart</h2>
+    <!-- <h2>A conference with heart</h2> -->
+     <h2>Key topics</h2>
   </div>
   <div class="row card-row">
     <div class="medium-4 column">
       <div class="card">
-        <img
+        <!-- <img
           src="{{ "/static/img/megaphone.svg" | relative_url }}"
           alt="Talk"
           class="card-icon"
-          />
+          /> -->
         <div class="card-section">
-            <h3 class="card-title">Talks</h3>
-            <p>Check out the <strong><a href="/talks/">talks page</a></strong> for our talk schedule. We'll post video links on the specific talk pages once the videos are up.</p>
+            <h3 class="card-title">Multimodal Data Understanding</h3>
+            <p>Visual content understanding, Video scene analysis, Multi-modal content processing, Visual similarity and retrieval</p>
         </div>
       </div>
     </div>
     <div class="medium-4 column">
       <div class="card">
-        <img
+        <!-- <img
           src="{{ "/static/img/heart-line.svg" | relative_url }}"
           alt="A heart"
           class="card-icon"
-          />
+          /> -->
         <div class="card-section">
-          <h3 class="card-title">Code of Conduct</h3>
-          <p>Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <strong><a href="/conduct/">Code of Conduct</a></strong>.</p>
+          <h3 class="card-title">Marketing and Optimization</h3>
+          <p>Real-time bidding optimization, Dynamic creative optimization (DCO), Conversion rate prediction, Performance forecasting, A/B testing for visuals, Resource-light video and image analysis.</p>
       </div>
       </div>
     </div>
     <div class="medium-4 column">
       <div class="card">
-        <img
+        <!-- <img
           src="{{ "/static/img/compass.svg" | relative_url }}"
           alt="Compass"
           class="card-icon"
-          />
+          /> -->
         <div class="card-section">
-          <h3 class="card-title">Join Our Mailing List</h3>
-          <p>Please <strong><a href="{{ site.mailing_list }}">join our mailing list today</a></strong> and don't miss out on important info like ticket sales, schedule announcements, and more.</p>
+          <h3 class="card-title">Brand Intelligence</h3>
+          <p>Brand safety, Visual brand consistency, Logo/product detection, Sentiment analysis, Cross-platform tracking, Brand suitability</p>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="row card-row">
+    <div class="medium-4 column">
+      <div class="card">
+        <!-- <img
+          src="{{ "/static/img/compass.svg" | relative_url }}"
+          alt="Compass"
+          class="card-icon"
+          /> -->
+        <div class="card-section">
+          <h3 class="card-title">Responsible AI and Privacy</h3>
+          <p>Privacy-preserving visual analytics, Bias mitigation, Transparency, Ethical considerations in advertising, Live-streaming CTV content and brand safety, User privacy</p>
+        </div>
+      </div>
+    </div>
+    <div class="medium-4 column">
+      <div class="card">
+        <!-- <img
+          src="{{ "/static/img/compass.svg" | relative_url }}"
+          alt="Compass"
+          class="card-icon"
+          /> -->
+        <div class="card-section">
+          <h3 class="card-title">Creative Generation and Enhancement</h3>
+          <p>Generative AI for ad creation, Style transfer, Automated visual optimization, Personalized content generation</p>
+        </div>
+      </div>
+    </div>
     </div>
     {% comment %}
     <div class="medium-4 column">
@@ -137,11 +170,11 @@ layout: base
   </div>
 </section>
 
+{% comment %}
 <section class="news-section section-pad theme-brand-color4 back">
   <div class="row column v-pad-bottom">
     <h2 class="text-center">Latest News</h2>
   </div>
-
   <div class="news row">
     {% for post in site.posts limit:12 %}
       {% unless post.hidden %}
@@ -165,15 +198,16 @@ layout: base
     </div>
   </div>
 </section>
+{% endcomment %}
 
+{% comment %}
 {% include sponsor-footer.html %}
-
 <div class="photo-hero-inline curve-top tint-brand-color1">
   <img
     src="/static/img/courtyard-crowd.jpg"
     alt="The crowd of DjangoCon 2019 attendees"
-    loading="lazy"
-     />
+    loading="lazy" />
 </div>
+{% endcomment %}
 
 </div><!-- end .content -->

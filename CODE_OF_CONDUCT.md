@@ -1,10 +1,10 @@
 # Code of Conduct
 
-DjangoCon US is dedicated to providing a fun harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, or religion.
+CVAM is dedicated to providing a fun harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, or religion.
 
 Be kind to others. Do not insult or put down other attendees. Behave professionally.
 
-Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for DjangoCon US.
+Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for CVAM.
 
 Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers.
 
@@ -13,20 +13,20 @@ Thank you for helping make this a welcoming, friendly event for all.
 ## Full Code of Conduct
 
 _To make clear what is expected, all delegates/attendees, speakers,
-exhibitors, organizers and volunteers at any DjangoCon US event are required
+exhibitors, organizers and volunteers at any CVAM event are required
 to conform to the following Code of Conduct. Organizers will enforce this code
 throughout the event._
 
 ### What the conference is
 
-DjangoCon US is a community conference intended for networking and
+CVAM is a community conference intended for networking and
 collaboration in the developer community.
 
-We value the participation of each member of the Django community and want all
+We value the participation of each member of the community and want all
 attendees to have an enjoyable and fulfilling experience. Accordingly, all
 attendees are expected to show respect and courtesy to other attendees
 throughout the conference, at all conference events, and in all conference
-online spaces (such as Slack), whether officially sponsored by DjangoCon US or
+online spaces (such as Slack), whether officially sponsored by CVAM or
 not.
 
 ### Be Kind To Others
@@ -89,10 +89,5 @@ warning the offender or expulsion from the conference with no refund._
 
 This Code of Conduct was forked from the example policy from the [Geek
 Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-
-harassment/Policy), created by the Ada Initiative and other volunteers. which
-is under a Creative Commons Zero license.
-
-Conference Code of Conduct by
-[2021.djangocon.us/coc/](https://2021.djangocon.us/coc/) is licensed under a
-[Creative Commons Attribution 3.0 Unported
-License](http://creativecommons.org/licenses/by/3.0/).
+harassment/Policy) and [2021.djangocon.us/coc/](https://2021.djangocon.us/coc/), created by the Ada Initiative and other volunteers, and Django US, which
+are under a Creative Commons Zero license and Creative Commons Attribution 3.0 Unported, respectively.

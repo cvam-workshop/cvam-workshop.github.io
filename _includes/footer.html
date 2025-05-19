@@ -1,13 +1,17 @@
 <footer class="footer" role="contentinfo">
 
+  {% comment %}
   <a
     class="footer-logo"
     href="{{ site.url }}" aria-hidden="true">
     <img src="{{ "/static/img/submark.svg" | relative_url }}"
     alt="DjangoCon {{ site.conf_year }} | San Diego" />
   </a>
+  {% endcomment %}
+
 
   <div class="row column">
+    {% comment %}
     <ul class="social-icons">
       <li>
         <a class="twitter" href="https://twitter.com/djangocon">
@@ -34,6 +38,8 @@
         </a>
       </li>
     </ul>
+    {% endcomment %}
+
 
     <p class="text-center">
       <strong>
@@ -43,12 +49,13 @@
       </strong>
     </p>
 
+
     <small class="legal text-center">
-      &copy; {{ site.time | date: '%Y' }} DjangoCon US
-      &middot; Design by <a href="http://yupgup.com/">YupGup</a>
-      &middot; Presented by <a href="https://www.defna.org/">DEFNA</a>
-      &middot; <a href="/conduct/">Code of Conduct</a>
-      &middot; <a href="/colophon/">Colophon</a>
+      &copy; {{ site.time | date: '%Y' }} CVAM 2025
+      &middot; Based on design by <a href="http://yupgup.com/">YupGup</a>
+      &middot; Modified for CVAM
+      <!-- &middot; <a href="/conduct/">Code of Conduct</a> -->
+      <!-- &middot; <a href="/colophon/">Colophon</a> -->
     </small>
   </div>
 </footer>

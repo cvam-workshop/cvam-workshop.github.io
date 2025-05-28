@@ -1,4 +1,6 @@
-# 2021.djangocon.us
+# CVAM 2025 Workshop at ICCV 2025
+
+Page website template is based on 2021.djangocon.us.
 
 [![Contributors](https://img.shields.io/github/contributors/djangocon/2021.djangocon.us.svg)](https://github.com/djangocon/2021.djangocon.us/graphs/contributors)
 

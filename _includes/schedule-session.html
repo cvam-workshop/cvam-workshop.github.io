@@ -39,11 +39,12 @@
             class="avatar"
             src="{{ presenter.photo_url }}"
             alt="Photo of {{ presenter.name }}" />
+          {% else %}
+          <svg class="avatar" viewBox="0 0 24 24" fill="currentColor" style="width: 24px; height: 24px; color: #ccc; display: inline-block; vertical-align: middle; margin-right: 8px;">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
           {% endif %}
-          {{ presenter.name }}
-          {% if presenter.pronouns != blank %}
-            ({{ presenter.pronouns }})
-          {% endif %}
+          {{ presenter.name }}{% if presenter.pronouns != blank %} ({{ presenter.pronouns }}){% endif %}{% if presenter.title or presenter.company or presenter.org %}<span style="color: #666; font-weight: normal; font-size: 0.9em;">{% if presenter.title %}, {{ presenter.title }}{% endif %}{% if presenter.title and (presenter.company or presenter.org) %}, {% elsif not presenter.title and (presenter.company or presenter.org) %}, {% endif %}{% if presenter.company %}{{ presenter.company }}{% elsif presenter.org %}{{ presenter.org }}{% endif %}</span>{% endif %}
         </p>
       {% endfor %}
     {% endif %}

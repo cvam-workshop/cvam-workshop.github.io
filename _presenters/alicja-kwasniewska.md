@@ -7,7 +7,7 @@ photo_url: /static/img/organizers/alicja-kwasniewska.jpeg
 slug: alicja-kwasniewska
 role: Organizer
 company: Amazon AWS
-title: AI Lead, North America, Advertisement and Marketing,
+title: AI Lead, North America, Advertisement and Marketing
 twitter: kwasniewskaala
 website: https://www.linkedin.com/in/alicjakwasniewska/
 ---

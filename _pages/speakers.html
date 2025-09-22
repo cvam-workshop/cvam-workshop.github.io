@@ -1,12 +1,10 @@
 ---
-description: Meet the people who made CVAM 2025 possible.
-heading: Organizers
+description: Meet the speakers presenting at CVAM 2025.
+heading: Speakers
 layout: base
-permalink: /organizers/
+permalink: /speakers/
 published: true
-redirect_from:
-- /about/organizers/
-title: Organizers
+title: Speakers
 ---
 
 <header class="subpage-header">
@@ -17,20 +15,20 @@ title: Organizers
   <section class="section-pad">
     <div class="row column">
       <p class="lead">
-        There is no "I" in CVAM 2025. Thank you to all our volunteers who make the workshop possible!
+        Meet the amazing speakers who will be presenting at CVAM 2025!
       </p>
       <div
         class="row small-up-1 smedium-up-2 medium-up-3 large-up-4 organizers">
-      {% for organizer in site.organizers %}
-        {% unless organizer.hidden %}
+      {% for presenter in site.presenters %}
+        {% unless presenter.hidden %}
           <div
             class="column column-block">
             <div class="profile">
-              {% if organizer.photo_url != blank %}
+              {% if presenter.photo_url != blank %}
               <img
                 class="thumbnail"
-                src="{{ organizer.photo_url }}"
-                alt="Photo of {{ organizer.name }}" />
+                src="{{ presenter.photo_url }}"
+                alt="Photo of {{ presenter.name }}" />
               {% else %}
               <div class="thumbnail default-avatar">
                 <svg viewBox="0 0 24 24" fill="currentColor" style="width: 100%; height: 100%; color: #ccc;">
@@ -40,33 +38,34 @@ title: Organizers
               {% endif %}
               <div class="profile-namecard">
                 <h3 class="profile-name">
-                  {{ organizer.name }}
-                  {% if organizer.pronouns != blank %}
-                    ({{ organizer.pronouns }})
+                  {{ presenter.name }}
+                  {% if presenter.pronouns != blank %}
+                    ({{ presenter.pronouns }})
                   {% endif %}
                 </h3>
-                <b>{{ organizer.role }}</b></br>
-                {{ organizer.title }}</br>
-                {{ organizer.org }}</br>
+                {% if presenter.role != blank %}<b>{{ presenter.role }}</b></br>{% endif %}
+                {% if presenter.title != blank %}{{ presenter.title }}</br>{% endif %}
+                {% if presenter.company != blank %}{{ presenter.company }}</br>{% endif %}
+                {% if presenter.org != blank %}{{ presenter.org }}</br>{% endif %}
               </div>
               <ul class="social-icons">
-                {% if organizer.twitter != blank %}
+                {% if presenter.twitter != blank %}
                 <li>
-                  <a class="twitter" href="https://twitter.com/{{ organizer.twitter }}" target="_blank">
+                  <a class="twitter" href="https://twitter.com/{{ presenter.twitter }}" target="_blank">
                     <svg class="twitter-icon"><use xlink:href="#twitter-icon"></use></svg>
                   </a>
                 </li>
                 {% endif %}
-                {% if organizer.github != blank %}
+                {% if presenter.github != blank %}
                 <li>
-                  <a class="github" href="https://github.com/{{ organizer.github }}/" target="_blank">
+                  <a class="github" href="https://github.com/{{ presenter.github }}/" target="_blank">
                     <svg class="social-icon"><use xlink:href="#github-icon"></use></svg>
                   </a>
                   </li>
                 {% endif %}
-                {% if organizer.website != blank %}
+                {% if presenter.website != blank %}
                 <li>
-                  <a class="web" href="{{ organizer.website }}" target="_blank">
+                  <a class="web" href="{{ presenter.website }}" target="_blank">
                     <svg class="social-icon"><use xlink:href="#web-icon"></use></svg>
                   </a>
                 </li>

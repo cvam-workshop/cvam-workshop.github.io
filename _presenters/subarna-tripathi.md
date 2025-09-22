@@ -1,6 +1,6 @@
 ---
 github: subarnatripathi
-layout: base
+layout: presenter
 name: Subarna Tripathi
 permalink: /presenters/subarna-tripathi/
 photo_url: /static/img/organizers/Subarna-Tripathi.png

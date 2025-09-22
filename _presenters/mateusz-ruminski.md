@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Mateusz Ruminski
 permalink: /presenters/mateusz-ruminski/
 photo_url: /static/img/organizers/Mateusz-Ruminski.jpeg

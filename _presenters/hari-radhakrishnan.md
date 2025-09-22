@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Hari Radhakrishnan
 permalink: /presenters/hari-radhakrishnan/
 photo_url:

@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Shradha Agrawal
 permalink: /presenters/shradha-agrawal/
 photo_url: /static/img/presenters/shradha-agrawal.jpeg

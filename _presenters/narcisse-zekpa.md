@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Narcisse Zekpa
 permalink: /presenters/narcisse-zekpa/
 photo_url:

@@ -1,6 +1,6 @@
 ---
 github: macsz
-layout: base
+layout: presenter
 name: Maciej Szankin
 permalink: /presenters/maciej-szankin/
 photo_url: /static/img/organizers/mac.jpeg

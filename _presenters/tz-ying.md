@@ -1,6 +1,6 @@
 ---
 github: gina9726
-layout: base
+layout: presenter
 name: Tz-Ying (Gina) Wu
 permalink: /presenters/tz-ying/
 photo_url: /static/img/organizers/gina.jpeg

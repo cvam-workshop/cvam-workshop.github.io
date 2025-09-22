@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Craig Miller
 permalink: /presenters/craig-miller/
 photo_url: /static/img/presenters/craig_miller.jpeg

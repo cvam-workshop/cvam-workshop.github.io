@@ -21,6 +21,30 @@
   font-weight: $global-weight-semibold;
 }
 
+.profile .thumbnail {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.profile-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+    transform: translateY(-2px);
+
+    .profile {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
 .profile .social-icons a {
   color: $brand-color3;
 

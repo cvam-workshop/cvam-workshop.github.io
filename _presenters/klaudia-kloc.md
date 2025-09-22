@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name:  Klaudia Kloc
 permalink: /presenters/klaudia-kloc/
 photo_url:

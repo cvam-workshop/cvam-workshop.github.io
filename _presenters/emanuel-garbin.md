@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Emanuel Garbin
 permalink: /presenters/emanuel-garbin/
 photo_url:

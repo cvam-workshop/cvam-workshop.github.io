@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Fiona Victoria
 permalink: /presenters/fiona-victoria/
 photo_url: /static/img/presenters/fiona-victoria.png

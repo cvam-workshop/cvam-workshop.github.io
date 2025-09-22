@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Dawid Moczadlo
 permalink: /presenters/dawid-moczadlo/
 photo_url:

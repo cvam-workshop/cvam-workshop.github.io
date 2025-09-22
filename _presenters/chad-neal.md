@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Chad Neal
 permalink: /presenters/chad-neal/
 photo_url: /static/img/presenters/chad-neal.jpeg

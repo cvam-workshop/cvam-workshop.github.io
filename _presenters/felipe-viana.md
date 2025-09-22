@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Felipe Viana
 permalink: /presenters/felipe-viana/
 photo_url:

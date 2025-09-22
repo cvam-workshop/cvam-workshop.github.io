@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Baris Gecer, Phd
 permalink: /presenters/baris-gecer/
 photo_url: /static/img/presenters/baris-gecer.jpeg

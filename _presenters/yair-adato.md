@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Yair Adato, PhD
 permalink: /presenters/yair-adato/
 photo_url:

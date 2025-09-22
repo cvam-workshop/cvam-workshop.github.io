@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name:  Samantha Wylatowska
 permalink: /presenters/samantha-wylatowska/
 photo_url: /static/img/presenters/samantha-wylatowska.jpeg

@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Sandra Mau
 permalink: /presenters/sandra-mau/
 photo_url:

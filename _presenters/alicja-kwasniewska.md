@@ -1,6 +1,6 @@
 ---
 github: akwasnie
-layout: base
+layout: presenter
 name: Alicja Kwasniewska, PhD
 permalink: /presenters/alicja-kwasniewska/
 photo_url: /static/img/organizers/alicja-kwasniewska.jpeg

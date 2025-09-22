@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Deepti Ghadiyaram
 permalink: /presenters/deepti-ghadiyaram/
 photo_url: /static/img/presenters/deepti-ghadiyaram.png

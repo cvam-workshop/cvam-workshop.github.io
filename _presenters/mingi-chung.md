@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Mingi Chung, PhD
 permalink: /presenters/mingi-chung/
 photo_url: /static/img/presenters/mingi-chung.jpeg

@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Mike Charalambous
 permalink: /presenters/mike-charalambous/
 photo_url: /static/img/presenters/mike-charalambous.jpeg

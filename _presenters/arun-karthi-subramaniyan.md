@@ -1,6 +1,6 @@
 ---
 github:
-layout: base
+layout: presenter
 name: Arun Karthi Subramaniyan
 permalink: /presenters/arun-karthi-subramaniyan/
 photo_url: /static/img/presenters/arun-karthi-subramaniyan.jpg

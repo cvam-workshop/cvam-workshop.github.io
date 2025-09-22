@@ -3,7 +3,7 @@ github:
 layout: base
 name: Fiona Victoria
 permalink: /presenters/fiona-victoria/
-photo_url:
+photo_url: /static/img/presenters/fiona-victoria.png
 slug: fiona-victoria
 role: Speaker
 company: Oregon Statre University

@@ -3,7 +3,7 @@ github:
 layout: base
 name: Deepti Ghadiyaram
 permalink: /presenters/deepti-ghadiyaram/
-photo_url:
+photo_url: /static/img/presenters/deepti-ghadiyaram.png
 slug: deepti-ghadiyaram
 role: Speaker
 company: Runway / Boston University

@@ -3,7 +3,7 @@ github:
 layout: base
 name: Baris Gecer, Phd
 permalink: /presenters/baris-gecer/
-photo_url:
+photo_url: /static/img/presenters/baris-gecer.jpeg
 slug: baris-gecer
 role: Speaker
 company: Amazon Ads

@@ -3,7 +3,7 @@ github:
 layout: presenter
 name: Hari Radhakrishnan
 permalink: /presenters/hari-radhakrishnan/
-photo_url:
+photo_url: /static/img/presenters/hari-radhakrishnan.png
 slug: hari-radhakrishnan
 role: Speaker
 company: Amazon AWS

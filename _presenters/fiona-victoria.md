@@ -6,7 +6,7 @@ permalink: /presenters/fiona-victoria/
 photo_url: /static/img/presenters/fiona-victoria.png
 slug: fiona-victoria
 role: Speaker
-company: Oregon Statre University
+company: Oregon State University
 title: Graduate Research Assistant
 twitter:
 website:

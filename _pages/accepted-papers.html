@@ -31,7 +31,13 @@ title: Accepted Papers
                   {{ author }}{% unless forloop.last %}, {% endunless %}
                 {% endfor %}
               </div>
-              <div class="paper-id">Paper ID: {{ paper.id }}</div>
+              <div class="paper-id">Paper ID: {{ paper.id }}
+              {% if paper.session %}
+                <span class="paper-session">
+                  📅 {{ paper.session }}
+                </span>
+              {% endif %}
+              </div>
               {% if paper.arxiv_link %}
                 <div class="paper-link">
                   <a href="{{ paper.arxiv_link }}" target="_blank" style="color: #2c5aa0; text-decoration: none;">
@@ -76,6 +82,11 @@ title: Accepted Papers
                 {% endfor %}
               </div>
               <div class="paper-id">Paper ID: {{ paper.id }}</div>
+              {% if paper.session %}
+                <div class="paper-session">
+                  📅 {{ paper.session }}
+                </div>
+              {% endif %}
               {% if paper.arxiv_link %}
                 <div class="paper-link">
                   <a href="{{ paper.arxiv_link }}" target="_blank" style="color: #2c5aa0; text-decoration: none;">
@@ -139,6 +150,14 @@ title: Accepted Papers
   color: #6c757d;
   font-size: 0.9rem;
   font-style: italic;
+}
+
+.paper-session {
+  color: #28a745;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding-left: 10px;
+  /* margin-top: 0.3rem; */
 }
 
 .paper-link {

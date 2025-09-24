@@ -12,4 +12,6 @@ twitter: MacSzankin
 website: https://www.linkedin.com/in/maciejszankin/
 ---
 
-With over 30 peer-reviewed publications in high-impact journals and international conferences, I specialize in areas such as multi-objective optimization, generative AI, distributed machine learning, model compression and neural architecture search. I hold a MSc in Computer Science and I am currently a PhD candidate, focusing on efficient neural network architectures for real-time image and signal processing on resource-constrained devices and ML accelerators.
+Maciej Szankin is a Principal Solutions Architect for Generative AI at SiMa.ai, where he leads the development of LLM and VLM-based solutions for edge applications in robotics, automotive, and drones. Since joining SiMa in January 2025, his work has focused on enabling low-latency, high-efficiency GenAI on custom hardware.
+
+Prior to SiMa, Maciej conducted research at Intel Labs, specializing in large language models and hardware-aware AutoML. He is also a PhD candidate, working on thermal image processing and neural network architecture optimization for real-time inference on resource-constrained devices. With over 30 peer-reviewed publications, his expertise spans generative AI, multi-objective optimization, distributed ML, model compression, and neural architecture search.

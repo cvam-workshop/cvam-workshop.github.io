@@ -43,7 +43,13 @@ layout: base
 
           {% if page.role != blank %}
           <div class="presenter-role">
-            <span class="role-badge">{{ page.role }}</span>
+            {% if page.role.size > 1 %}
+              {% for role in page.role %}
+                <span class="role-badge">{{ role }}</span>
+              {% endfor %}
+            {% else %}
+              <span class="role-badge">{{ page.role }}</span>
+            {% endif %}
           </div>
           {% endif %}
         </div>

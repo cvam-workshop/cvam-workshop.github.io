@@ -44,7 +44,15 @@ title: Speakers
                     ({{ presenter.pronouns }})
                   {% endif %}
                 </h3>
-                {% if presenter.role != blank %}<b>{{ presenter.role }}</b></br>{% endif %}
+                {% if presenter.role != blank %}
+                  <b>
+                    {% if presenter.role.size > 1 %}
+                      {{ presenter.role | join: ", " }}
+                    {% else %}
+                      {{ presenter.role }}
+                    {% endif %}
+                  </b></br>
+                {% endif %}
                 {% if presenter.title != blank %}{{ presenter.title }}</br>{% endif %}
                 {% if presenter.company != blank %}{{ presenter.company }}</br>{% endif %}
                 {% if presenter.org != blank %}{{ presenter.org }}</br>{% endif %}

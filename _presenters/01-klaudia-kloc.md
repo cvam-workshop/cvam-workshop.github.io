@@ -5,7 +5,9 @@ name:  Klaudia Kloc
 permalink: /presenters/klaudia-kloc/
 photo_url: /static/img/presenters/klaudia-kloc.png
 slug: klaudia-kloc
-role: Panelist
+role:
+- Panelist
+- Speaker
 company: Vidoc Security
 title: CEO
 twitter:

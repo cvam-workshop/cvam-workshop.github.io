@@ -6,7 +6,7 @@ permalink: /presenters/mingi-chung/
 photo_url: /static/img/presenters/mingi-chung.jpeg
 slug: mingi-chung
 role: Panelist
-company: Amazon AWS
+company: Amazon Ads
 title: Senior UX Researcher
 twitter:
 website: https://www.linkedin.com/in/mingichung/

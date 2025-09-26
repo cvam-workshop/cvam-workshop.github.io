@@ -5,7 +5,9 @@ name: Shradha Agrawal
 permalink: /presenters/shradha-agrawal/
 photo_url: /static/img/presenters/shradha-agrawal.jpeg
 slug: shradha-agrawal
-role: Panelist
+role:
+- Speaker
+- Panelist
 company: Adobe
 title: Engineering Manager
 twitter:

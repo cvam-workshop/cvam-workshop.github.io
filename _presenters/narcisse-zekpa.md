@@ -12,3 +12,4 @@ twitter:
 website:
 ---
 
+Narcisse Zekpa is a Sr. Solutions Architect at AWS. He helps organizations accelerate their business transformation through innovative, and scalable solutions, on the AWS Cloud. He is passionate about enabling businesses to transform themselves, using data and AI.

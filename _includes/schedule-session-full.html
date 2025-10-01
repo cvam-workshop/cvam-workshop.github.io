@@ -39,6 +39,12 @@
         {% if presenter.pronouns != blank %}
           ({{ presenter.pronouns }})
         {% endif %}
+        {% if presenter.title != blank or presenter.company != blank %}
+          <br>
+          <span style="font-size: 0.85em; font-style: italic; color: #666;">
+            {% if presenter.title != blank %}{{ presenter.title }}{% endif %}{% if presenter.title != blank and presenter.company != blank %}, {% endif %}{% if presenter.company != blank %}{{ presenter.company }}{% endif %}
+          </span>
+        {% endif %}
       </p>
     {% endfor %}
   {% endif %}

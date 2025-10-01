@@ -100,6 +100,11 @@ layout: base
             ({{ presenter.pronouns }})
           {% endif %}
         </h3>
+        {% if presenter.title != blank or presenter.company != blank %}
+          <p style="font-size: 0.85em; font-style: italic; color: #666; margin-top: -1em; margin-bottom: -0.5em;">
+            {% if presenter.title != blank %}{{ presenter.title }}{% endif %}{% if presenter.title != blank and presenter.company != blank %}, {% endif %}{% if presenter.company != blank %}{{ presenter.company }}{% endif %}
+          </p>
+        {% endif %}
 
         {% if presenter.twitter or presenter.github or presenter.website %}
           <ul class="social-icons">
